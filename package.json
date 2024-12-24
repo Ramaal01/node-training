@@ -1,0 +1,36 @@
+{
+  "name": "training",
+  "version": "1.0.0",
+  "description": "node-training ",
+  "keywords": [
+    "node",
+    "training",
+    "js"
+  ],
+  "homepage": "https://github.com/Ramaal01/node-training#readme",
+  "bugs": {
+    "url": "https://github.com/Ramaal01/node-training/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramaal01/node-training.git"
+  },
+  "license": "ISC",
+  "author": "Rama",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev":"nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "lodash": "^4.17.21",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
